@@ -1,20 +1,20 @@
 package ntu.cntt2.usingrecyclerview;
 
 public class LandScape {
-    String landImageFileNames;
+    String landImageFileName;
     String landCation;
 
     public LandScape(String landImageFileNames, String landCation) {
-        this.landImageFileNames = landImageFileNames;
+        this.landImageFileName = landImageFileNames;
         this.landCation = landCation;
     }
 
-    public String getLandImageFileNames() {
-        return landImageFileNames;
+    public String getLandImageFileName() {
+        return landImageFileName;
     }
 
-    public void setLandImageFileNames(String landImageFileNames) {
-        this.landImageFileNames = landImageFileNames;
+    public void setLandImageFileName(String landImageFileNames) {
+        this.landImageFileName = landImageFileNames;
     }
 
     public String getLandCation() {

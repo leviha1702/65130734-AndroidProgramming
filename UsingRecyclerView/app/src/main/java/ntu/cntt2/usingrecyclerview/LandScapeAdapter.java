@@ -35,16 +35,17 @@ public class LandScapeAdapter extends RecyclerView.Adapter<LandScapeAdapter.Item
     public ItemLandHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater cai_bom= LayoutInflater.from(context);
         View vItem = cai_bom.inflate(R.layout.item_land, parent, false);
-        ItemLandHolder holderCreater = new ItemLandHolder(vItem);
-        return holderCreater;
+        ItemLandHolder viewholderCreater = new ItemLandHolder(vItem);
+        return viewholderCreater;
     }
 
     @Override
     public void onBindViewHolder(@NonNull ItemLandHolder holder, int position) {
         LandScape landScapeHienThi = lsData.get(position);
         String caption = landScapeHienThi.getLandCation();
-        String tenFileAnh = landScapeHienThi.getLandImageFileNames();
+        String tenFileAnh = landScapeHienThi.getLandImageFileName();
         holder.tvCaption.setText(caption);
+
         String packageName = holder.itemView.getContext().getPackageName();
         int imageID = holder.itemView.getContext().getResources().getIdentifier(tenFileAnh, "mipmap", packageName);
         holder.ivLandScape.setImageResource(imageID);
