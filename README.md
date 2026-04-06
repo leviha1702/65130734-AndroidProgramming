@@ -19,3 +19,11 @@ Kết quả bài thực hành số 11: Ví dụ về bài Fragment Statically.
 <p align="center">
   <img src="images/bt11.png" width="300"/>
 </p>
+
+Kết quả bài thực hành số 13: Ví dụ về Replacing Fragments Dynamically.
+
+<p align="center">
+  <img src="images/bt13.1.png" width="200"/>
+  <img src="images/bt13.2.png" width="200"/>
+  <img src="images/bt13.3.png" width="200"/>
+</p>
