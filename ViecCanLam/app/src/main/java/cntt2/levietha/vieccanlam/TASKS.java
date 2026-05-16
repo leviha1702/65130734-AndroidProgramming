@@ -56,6 +56,6 @@ public class TASKS implements Serializable {
         taskObject.put("date", date);
         taskObject.put("priority", priority);
         taskObject.put("message", message);
-        return taskObject;  
+        return taskObject;
     }
 }
